@@ -2,7 +2,7 @@
 function _extract_species_dictionary(reaction_phrase::String;
 	direction::Float64 = -1.0)::Dict{String,Float64}
 
-	# initialize -
+	# .initialize -
 	species_symbol_dictionary = Dict{String,Float64}()
 	
 	# ok, do we hve a +?
